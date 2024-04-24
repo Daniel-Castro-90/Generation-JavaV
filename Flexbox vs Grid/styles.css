@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat";
+}
+
+body {
+	background: #1D202B;
+	color: #fff;
+	/* background-image: url('./img/gatitos.jpg');
+	background-repeat: repeat;
+	background-size: 100px; */
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+
+	/* Grid */
+	/* display: grid;
+	grid-template-columns: 2.5fr 1fr;
+	gap: 20px; */
+	
+
+	/* Flexbox */
+	/* display: flex;
+	gap: 20px; */
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-peliculas {
+
+	/* Grid */
+	/* display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px; */
+
+	/* Flexbox */
+	/* width:70%;
+	display:flex;
+	flex-wrap:wrap;
+	gap: 20px */
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+
+	/* Flexbox */
+	/* width: calc(33.33% - 20px); */
+}
+
+.card .titulos {
+	height: 100%;
+
+	/* Grid */
+	/* display: grid;
+	grid-template-rows: 1fr auto; */
+
+	/* Flexbox */
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-between; */
+}
+
+.banner {
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+
+	/* Grid */
+	/* display: grid;
+	grid-template-rows: auto auto auto;
+	align-items:center; */
+
+	/* Flexbox */
+	/* display: flex;
+	width: 30%;
+	flex-direction: column;
+	justify-content: space-between; */
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.banner .boton {
+	background: #FFD600;
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+}
